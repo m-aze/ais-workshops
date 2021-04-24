@@ -3,3 +3,21 @@ Install docker containers for ctfd:
 https://computingforgeeks.com/install-docker-and-docker-compose-on-kali-linux/
 
 https://computingforgeeks.com/how-to-install-latest-docker-compose-on-linux/
+
+
+
+Modify the docker-compose.yml file from the repository to specify a SECRET_KEY environment for the CTFd service. :
+
+** Run | python -c "import os; f=open('.ctfd_secret_key', 'a+'); f.write(os.urandom(64)); f.close()" | within the CTFd repo to generate a .ctfd_secret_key file.
+
+environment:
+  - SECRET_KEY=<SPECIFY_RANDOM_VALUE>
+  - UPLOAD_FOLDER=/var/uploads
+  - LOG_FOLDER=/var/log/CTFd
+  - DATABASE_URL=mysql+pymysql://root:ctfd@db/ctfd
+  - REDIS_URL=redis://cache:6379
+  - WORKERS=4
+  
+  
+  Run docker-compose up
+You should now be able to access CTFd at http://localhost:8000
