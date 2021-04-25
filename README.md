@@ -2,7 +2,7 @@
 
 <img src="https://i.gyazo.com/caab95f2ca6e89e185f09ab18d6670d6.png" width=1000>
 
-! DISCLAIMER: The goal of Capture the Flag series is for educational purposes only. Do not investigate individuals, websites, server, or a network, or conduct any illegal activities on any system you do not have permission to analyze. ! 
+! DISCLAIMER: The goal of this AIS Capture the Flag series is for educational purposes only. Do not investigate individuals, websites, server, or a network, or conduct any illegal activities on any system you do not have permission to analyze. ! 
 
 Check out the team here: https://baruchais.com/
 
