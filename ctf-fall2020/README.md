@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://tryhackme.com/room/easyctf/">
-    <img alt="Logo" src="https://github.com/m-aze/ais-workshops/blob/main/materials/simple.png" width="500"/>
+    <img alt="Logo" src="https://github.com/m-aze/ais-workshops/blob/main/materials/simple.png" width="1000"/>
 
 Based on: https://tryhackme.com/room/easyctf
 
